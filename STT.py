@@ -9,4 +9,4 @@ stt.set_service_url(url)
 # Perform conversion
 with open('greeting.mp3', 'rb') as f:
     res = stt.recognize(audio=f, content_type='audio/mp3', model='en-US_NarrowbandModel', continuous=True).get_result()
-print (res)
+print(res,file=open("output.txt", "a"))
