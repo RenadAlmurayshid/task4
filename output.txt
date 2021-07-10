@@ -1,0 +1,1 @@
+[{'result_index': 0, 'results': [{'final': True, 'alternatives': [{'transcript': 'hi ', 'confidence': 0.99, 'timestamps': [['hi', 1.26, 1.9]], 'word_confidence': [['hi', 0.99]]}, {'transcript': 'high '}, {'transcript': 'hi I '}]}]}]
